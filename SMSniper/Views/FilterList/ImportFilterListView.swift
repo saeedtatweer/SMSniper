@@ -34,7 +34,7 @@ struct ImportFilterListView: View {
             NavigationView {
                 filterList
                     .toolbar {
-                        ToolbarItemGroup(placement: .navigationBarLeading) {
+                        ToolbarItem(placement: .cancellationAction) {
                             Button("CANCEL") {
                                 self.onCancel()
                             }
@@ -59,7 +59,7 @@ struct ImportFilterListView: View {
                                 Image(systemName: SYSTEM_IMAGES.CHECKLIST_OPTIONS.image)
                             }
                         }
-                        ToolbarItemGroup(placement: .navigationBarTrailing) {
+                        ToolbarItem(placement: .confirmationAction) {
                             Button("SAVE") {
                                 self.onAdd(Array(self.selectedFilters))
                             }.disabled(selectedFilters.count == 0)
