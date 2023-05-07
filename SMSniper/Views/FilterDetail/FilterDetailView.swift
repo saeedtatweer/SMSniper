@@ -32,12 +32,24 @@ extension FilterDetailView {
             NavigationView {
                 form
                     .navigationBarTitle("NEW_FILTER")
-                    .navigationBarItems(leading: leadingBarItem, trailing: trailingBarItem)
+										.toolbar {
+											ToolbarItem(placement: .confirmationAction) {
+												trailingBarItem
+											}
+
+											ToolbarItem(placement: .cancellationAction) {
+												leadingBarItem
+											}
+										}
             }
         } else {
             form
                 .navigationBarTitle("UPDATE_FILTER")
-                .navigationBarItems(trailing: trailingBarItem)
+								.toolbar {
+									ToolbarItem(placement: .confirmationAction) {
+										trailingBarItem
+									}
+								}
         }
     }
     
