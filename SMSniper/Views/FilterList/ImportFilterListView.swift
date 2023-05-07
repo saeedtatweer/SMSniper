@@ -29,44 +29,41 @@ struct ImportFilterListView: View {
     }
     
     var body: some View {
-        ZStack {
-            BackgroundView()
-            NavigationView {
-                filterList
-                    .toolbar {
-                        ToolbarItem(placement: .cancellationAction) {
-                            Button("CANCEL") {
-                                self.onCancel()
-                            }
-                            
-                            Menu {
-                                Button {
-                                    self.selectedFilters = Set(filters)
-                                } label: {
-                                    Label("SELECT_ALL", systemImage: SYSTEM_IMAGES.SELECT_ALL.image)
-                                }
-                                Button {
-                                    self.selectedFilters = Set(self.newFilters)
-                                } label: {
-                                    Label("SELECT_NEW", systemImage: SYSTEM_IMAGES.SELECT_NEW.image)
-                                }
-                                Button {
-                                    self.selectedFilters = Set()
-                                } label: {
-                                    Label("SELECT_NONE", systemImage: SYSTEM_IMAGES.SELECT_NONE.image)
-                                }
-                            } label: {
-                                Image(systemName: SYSTEM_IMAGES.CHECKLIST_OPTIONS.image)
-                            }
-                        }
-                        ToolbarItem(placement: .confirmationAction) {
-                            Button("SAVE") {
-                                self.onAdd(Array(self.selectedFilters))
-                            }.disabled(selectedFilters.count == 0)
-                        }
-                    }
-            }
-        }
+			NavigationView {
+				filterList
+					.toolbar {
+						ToolbarItem(placement: .cancellationAction) {
+							Button("CANCEL") {
+								self.onCancel()
+							}
+
+							Menu {
+								Button {
+									self.selectedFilters = Set(filters)
+								} label: {
+									Label("SELECT_ALL", systemImage: SYSTEM_IMAGES.SELECT_ALL.image)
+								}
+								Button {
+									self.selectedFilters = Set(self.newFilters)
+								} label: {
+									Label("SELECT_NEW", systemImage: SYSTEM_IMAGES.SELECT_NEW.image)
+								}
+								Button {
+									self.selectedFilters = Set()
+								} label: {
+									Label("SELECT_NONE", systemImage: SYSTEM_IMAGES.SELECT_NONE.image)
+								}
+							} label: {
+								Image(systemName: SYSTEM_IMAGES.CHECKLIST_OPTIONS.image)
+							}
+						}
+						ToolbarItem(placement: .confirmationAction) {
+							Button("SAVE") {
+								self.onAdd(Array(self.selectedFilters))
+							}.disabled(selectedFilters.count == 0)
+						}
+					}
+			}
     }
 }
 
