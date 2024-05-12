@@ -8,8 +8,9 @@ import Combine
 
 // MARK: App State
 struct AppState {
-    var settings: SettingsState
-    var filters: FilterState
+  var settings: SettingsState
+  var filters: FilterState
+  var isLoading = true
 }
 
 // MARK: Filter State

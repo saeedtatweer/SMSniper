@@ -22,7 +22,6 @@ struct SMSniperApp: App {
     )
 
     init() {
-
         // Fetch existing settings
         store.dispatch(.settings(action: .fetchSettings))
 
@@ -31,7 +30,8 @@ struct SMSniperApp: App {
 
         // Increase launch number
         store.dispatch(.settings(action: .setNumberOfLaunches(number: store.state.settings.numberOfLaunches + 1)))
-        
+
+      self.store.dispatch(.isLoading(status: false))
     }
     
     var body: some Scene {

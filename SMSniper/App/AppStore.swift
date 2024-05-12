@@ -28,6 +28,7 @@ final class Store<State, Action>: ObservableObject {
     }
 
     // The dispatch function.
+  @MainActor
     func dispatch(_ action: Action) {
         reducer(&state, action)
 
@@ -37,7 +38,6 @@ final class Store<State, Action>: ObservableObject {
                 break
             }
             middleware
-                .receive(on: DispatchQueue.main)
                 .sink(receiveValue: dispatch)
                 .store(in: &middlewareCancellables)
         }
