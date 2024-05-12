@@ -1,6 +1,6 @@
 //
 //  FilterDetailContainerView.swift
-//  Bouncer
+//  SMSniper
 //
 
 import SwiftUI

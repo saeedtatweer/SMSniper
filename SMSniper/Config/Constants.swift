@@ -1,6 +1,6 @@
 //
 //  Constants.swift
-//  Bouncer
+//  SMSniper
 //
 
 import SwiftUI

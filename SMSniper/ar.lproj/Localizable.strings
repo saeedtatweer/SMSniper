@@ -1,6 +1,6 @@
 /*
 Localizable.strings
-Bouncer
+SMSniper
 
 Created by asaah18 on 7/13/21.
 
@@ -42,7 +42,7 @@ Created by asaah18 on 7/13/21.
 "TAP_SPACE" = "اضغط '";
 "TO_ADD_A_FILTER_SPACE" = "' to add a rule.";
 "WELCOME_TITLE" = "مرحباً!";
-"WELCOME_SUBTITLE" = "مرحباً بك في Bouncer";
+"WELCOME_SUBTITLE" = "مرحباً بك في SMSniper";
 "HELP" = "مساعدة";
 "LETS" = ""; /*used to be "let's", now it's merged with (ENABLE_SMS_FILTERING) for language specific reason*/
 "HERE_IS_HOW" = "";  /*used to be "to", now it's merged with (ENABLE_SMS_FILTERING) for language specific reason*/

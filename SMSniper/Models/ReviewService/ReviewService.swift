@@ -1,6 +1,6 @@
 //
 //  RatingService.swift
-//  Bouncer
+//  SMSniper
 //
 
 

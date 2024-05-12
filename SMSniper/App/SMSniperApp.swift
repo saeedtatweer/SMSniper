@@ -1,14 +1,14 @@
 //
-//  BouncerApp.swift
-//  Bouncer
+//  SMSniperApp.swift
+//  SMSniper
 //
 
 import SwiftUI
 import StoreKit
 
 @main
-struct BouncerApp: App {
-    
+struct SMSniperApp: App {
+
     let store = AppStore(initialState: .init(                            
                         settings: SettingsState(),
                         filters: FilterState() 

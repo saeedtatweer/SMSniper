@@ -1,6 +1,6 @@
 //
 //  TutorialContainerView.swift
-//  Bouncer
+//  SMSniper
 //
 
 import SwiftUI

@@ -1,6 +1,6 @@
 /*
   Localizable.strings
-  Bouncer
+  SMSniper
 
   Created by Daniel Bernal on 6/30/20.
    
@@ -34,7 +34,7 @@
 "TEXT" = "Mensaje";
 "LIST_VIEW_TITLE" = "Reglas";
 "EMPTY_LIST_JUNK_TITLE" = "No tienes reglas de SPAM ";
-"EMPTY_LIST_JUNK_MESSAGE" = "Bouncer bloqueará los mensajes SMS de desconocidos usando las reglas que agregues aquí. No recibirás notificaciones para mensajes SPAM";
+"EMPTY_LIST_JUNK_MESSAGE" = "SMSniper bloqueará los mensajes SMS de desconocidos usando las reglas que agregues aquí. No recibirás notificaciones para mensajes SPAM";
 "EMPTY_LIST_ALLOW_TITLE" = "No tienes reglas de entrega segura";
 "EMPTY_LIST_ALLOW_MESSAGE" = "Utiliza las reglas seguras para que tus mensajes SMS importantes siempre se entreguen en tu bandeja de entrada.";
 "EMPTY_LIST_OTHER_TITLE" = "No tienes reglas de categoria";
@@ -42,7 +42,7 @@
 "TAP_SPACE" = "Toca '";
 "TO_ADD_A_FILTER_SPACE" = "' para agregar una regla.";
 "WELCOME_TITLE" = "Hola!";
-"WELCOME_SUBTITLE" = "Bienvenid@ a Bouncer!";
+"WELCOME_SUBTITLE" = "Bienvenid@ a SMSniper!";
 "HELP" = "Ayuda";
 "LETS" = "Vamos a";
 "HERE_IS_HOW" = "Para ";

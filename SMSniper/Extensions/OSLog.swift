@@ -1,6 +1,6 @@
 //
 //  OSLog.swift
-//  Bouncer
+//  SMSniper
 //
 //  Created by Daniel on 12/09/22.
 //

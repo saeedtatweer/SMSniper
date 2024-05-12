@@ -1,6 +1,6 @@
 //
 //  SMSOfflineFilter.swift
-//  BouncerTests
+//  SMSniperTests
 //
 
 import XCTest

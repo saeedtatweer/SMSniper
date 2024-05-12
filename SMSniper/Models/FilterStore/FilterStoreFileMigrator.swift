@@ -1,6 +1,6 @@
 //
 //  FilterStoreMigrator.swift
-//  Bouncer
+//  SMSniper
 //
 //  Created by Daniel on 22/04/23.
 //

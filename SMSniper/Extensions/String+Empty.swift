@@ -1,6 +1,6 @@
 //
 //  String+Empty.swift
-//  Bouncer
+//  SMSniper
 //
 //  Created by Miguel Rojas Cortes on 4/6/21.
 //

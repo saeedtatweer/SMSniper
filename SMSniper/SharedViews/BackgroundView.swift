@@ -1,6 +1,6 @@
 //
 //  BackgroundView.swift
-//  Bouncer
+//  SMSniper
 //
 
 import SwiftUI

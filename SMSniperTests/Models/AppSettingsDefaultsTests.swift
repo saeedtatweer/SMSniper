@@ -1,6 +1,6 @@
 //
 //  AppSettingsDefaultsTests.swift
-//  BouncerTests
+//  SMSniperTests
 //
 
 import XCTest

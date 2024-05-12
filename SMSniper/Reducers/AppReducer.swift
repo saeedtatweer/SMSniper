@@ -1,6 +1,6 @@
 //
 //  AppReducer.swift
-//  Bouncer
+//  SMSniper
 //
 
 import Foundation

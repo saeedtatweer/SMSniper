@@ -1,6 +1,6 @@
 //
 //  Message.swift
-//  Bouncer
+//  SMSniper
 //
 //  Created by Daniel Bernal on 6/26/20.
 //

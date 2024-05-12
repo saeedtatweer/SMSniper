@@ -1,6 +1,6 @@
 //
 //  AppAction.swift
-//  Bouncer
+//  SMSniper
 //
 
 import Foundation

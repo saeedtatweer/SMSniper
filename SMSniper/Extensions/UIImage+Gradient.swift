@@ -1,6 +1,6 @@
 //
 //  UIImage+Gradient.swift
-//  Bouncer
+//  SMSniper
 //
 
 import Foundation

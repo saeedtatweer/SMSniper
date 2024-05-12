@@ -1,6 +1,6 @@
 //
 //  FilterMiddleware.swift
-//  Bouncer
+//  SMSniper
 //
 
 import Foundation

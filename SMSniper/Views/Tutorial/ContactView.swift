@@ -1,6 +1,6 @@
 //
 //  MailView.swift
-//  Bouncer
+//  SMSniper
 //
 //  Created by Daniel on 23/04/23.
 //
@@ -20,7 +20,7 @@ struct ContactView: UIViewControllerRepresentable {
         let controller = MFMailComposeViewController()
         controller.mailComposeDelegate = context.coordinator
         controller.setToRecipients(["danielbernal@hey.com"])
-        controller.setSubject("Bouncer Support (v\(Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "")")
+        controller.setSubject("SMSniper Support (v\(Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "")")
         return controller
     }
 

@@ -1,6 +1,6 @@
 //
 //  FilterStoreFileTests.swift
-//  BouncerTests
+//  SMSniperTests
 //
 
 import XCTest

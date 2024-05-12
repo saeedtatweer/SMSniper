@@ -1,6 +1,6 @@
 //
 //  SMSOfflineFilter.swift
-//  Bouncer
+//  SMSniper
 //
 
 import Foundation

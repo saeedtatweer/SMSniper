@@ -1,6 +1,6 @@
 //
 //  FilterStoreFile.swift
-//  Bouncer
+//  SMSniper
 //
 
 import Foundation

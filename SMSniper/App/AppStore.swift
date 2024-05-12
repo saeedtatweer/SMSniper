@@ -1,6 +1,6 @@
 //
 //  AppStore.swift
-//  Bouncer
+//  SMSniper
 //
 
 import Foundation

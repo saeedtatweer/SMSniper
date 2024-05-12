@@ -1,6 +1,6 @@
 //
 //  FilterTypes.swift
-//  Bouncer
+//  SMSniper
 //
 //  Created by Daniel Bernal on 7/20/20.
 //

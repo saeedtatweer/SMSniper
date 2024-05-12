@@ -1,6 +1,6 @@
 //
 //  SettingsAction.swift
-//  Bouncer
+//  SMSniper
 //
 //  Created by Daniel Bernal on 8/12/20.
 //

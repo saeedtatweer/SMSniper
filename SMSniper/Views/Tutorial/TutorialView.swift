@@ -1,6 +1,6 @@
 //
 //  TutorialView.swift
-//  Bouncer
+//  SMSniper
 //
 
 import SwiftUI
@@ -72,7 +72,7 @@ struct TutorialView: View {
                     .foregroundColor(Color("TextHighLightColor"))
                     .bold()
                 Image("toggle-icon")
-                Text( "'Bouncer'").foregroundColor(Color("TextDefaultColor"))
+                Text( "'SMSniper'").foregroundColor(Color("TextDefaultColor"))
             }
         }
     }

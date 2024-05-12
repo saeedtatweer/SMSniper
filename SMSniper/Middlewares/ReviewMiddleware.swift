@@ -1,6 +1,6 @@
 //
 //  ReviewMiddleware.swift
-//  Bouncer
+//  SMSniper
 //
 
 import Foundation

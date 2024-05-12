@@ -1,6 +1,6 @@
 //
 //  RatingServiceDefault.swift
-//  Bouncer
+//  SMSniper
 //
 
 import Foundation
