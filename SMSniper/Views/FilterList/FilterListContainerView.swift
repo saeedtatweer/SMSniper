@@ -52,12 +52,12 @@ struct FilterListContainerView: View {
                        shouldShowImportList: $shouldShowImportList
         )
             // Display Filter import dialog when needed
-            .onChange(of: store.state.filters.filterImportInProgress, perform: { status in
+        .onChange(of: store.state.filters.filterImportInProgress) { _, status in
                 // Add a little delay to allow the File Selection view to dismiss
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                     shouldShowImportList = status // Delay setting isPresented to false
                 }
-            })
+            }
 
             // Import Error Display
             .alert(item: errorBinding) { error in
