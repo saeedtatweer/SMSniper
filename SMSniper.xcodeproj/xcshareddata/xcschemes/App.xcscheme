@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1540"
+   LastUpgradeVersion = "1600"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -54,16 +54,6 @@
                BlueprintIdentifier = "D6529F7F24A41372009AE3FF"
                BuildableName = "SMSniperTests.xctest"
                BlueprintName = "SMSniperTests"
-               ReferencedContainer = "container:SMSniper.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D6529F8A24A41372009AE3FF"
-               BuildableName = "BouncerUITests.xctest"
-               BlueprintName = "BouncerUITests"
                ReferencedContainer = "container:SMSniper.xcodeproj">
             </BuildableReference>
          </TestableReference>
