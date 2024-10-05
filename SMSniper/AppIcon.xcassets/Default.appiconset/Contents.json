@@ -1,7 +1,31 @@
 {
   "images" : [
     {
-      "filename" : "SMSniper.png",
+      "filename" : "logo_light.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "logo_dark.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "tinted"
+        }
+      ],
+      "filename" : "logo_tinted.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
