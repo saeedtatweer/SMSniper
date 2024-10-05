@@ -6,6 +6,7 @@
 import Foundation
 import Combine
 
+@MainActor
 func reviewMiddleware(reviewService: ReviewService) -> Middleware<AppState, AppAction> {
 
     return { state, action in

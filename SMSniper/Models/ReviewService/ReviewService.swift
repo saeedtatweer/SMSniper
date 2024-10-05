@@ -6,6 +6,7 @@
 
 import Foundation
 
+@MainActor
 protocol ReviewService {
 
     var appSettings: AppSettingsStore { get }
